@@ -36,6 +36,30 @@ while ($maVar5 <= 10) {
     echo "$maVar5" . "<br>";
 };
 
+// Exercice 5
+for ($i = 1; $i <= 15; $i++) {
+    echo "<p>On y arrive presque</p>";
+};
+
+// Exercice 6
+for ($i = 20; $i >= 0; $i--) {
+    echo "<p>C'est presque bon</p>";
+};
+
+// Exercice 7
+$maVar6 = 1;
+
+while ($maVar6 <= 100) {
+    $maVar6 += 15;
+    echo "<p>On tient le bon bout</p>";
+};
+
+// Exercic 8
+while ($i <= 200) {
+    $i += 12;
+    echo "<p>Enfin !</p>";
+}
+
 ?>
 
 </body>
